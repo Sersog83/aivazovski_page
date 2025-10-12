@@ -1,4 +1,9 @@
 :root{
-    --bg-main: lightblue;
-    
+    --bg-main: #fff;
+    --bg-main: #F6F6F6;
+
+
+    --font-color-grey:#514d4d;
+    --font-color-black: #070707;
+
 }
