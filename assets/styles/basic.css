@@ -28,3 +28,11 @@ margin: 0;
   max-width: 970px;
 
 }
+.divider {
+    width: 100%;
+    max-width: 420px;
+    background-color:var(--font-color-black);
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+}
