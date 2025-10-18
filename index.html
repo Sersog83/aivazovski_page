@@ -38,6 +38,42 @@
     </div>
   </header>
 
+  <div class="mobile-navigation" aria-label="mobile navigation" id="mobile-navigation">
+    <label for="navigation-toggler">
+      <svg class="mobile-navigation-burger" aria-label="burger icon">
+        <use href="assets/sprites.svg#burger-icon"></use>
+      </svg>
+
+    </label>
+    <input type="checkbox" class="mobile-navigation-toggler" id="navigation-toggler">
+    <nav class="mobile-navigation-menu" aria-label="mobile navigation menu">
+      <ul class="mobile-navigation-list" aria-label="mobile navigation list">
+        <li>
+          <a href="#home-id" class="mobile-navigation-link" aria-label="link to home">Home</a>
+        </li>
+        <li>
+          <a href="#about-id" class="mobile-navigation-link" aria-label="link to about">About</a>
+        </li>
+        <li>
+          <a href="#history-id" class="mobile-navigation-link" aria-label="link to history">History</a>
+        </li>
+        <li>
+          <a href="#portfolio-id" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contacts-id" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
+        </li>
+      </ul>
+      <label for="navigation-toggler">
+        <svg class="mobile-navigation-cross" aria-label="cross icon">
+          <use href="assets/sprites.svg#cross-icon"></use>
+        </svg>
+
+      </label>
+    </nav>
+
+  </div>
+
   <main aria-label="main">
     <section class="home" aria-label="home" id="home-id">
       <div class="container">
@@ -99,7 +135,7 @@
     <div class="container">
       <h2 class="contacts-title" aria-label="contacts title">Contacts</h2>
       <button class="contacts-button">
-        <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87" class="contacts-link" target="_blank">wikipedia.org</a>
+      <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87" class="contacts-link" target="_blank">wikipedia.org</a>
       </button>
       <address class="socials" aria-label="socials icons">
         <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
